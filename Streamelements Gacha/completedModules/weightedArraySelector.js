@@ -1,6 +1,6 @@
 /**
- * @param "array of weightedIndex objects"
- * @returns {GEObject}
+ * @param {Array} weightedArray array of special weighted objects
+ * @returns {GEObject} GEObject gacha event object, contains the data to display an event
  */
 function randomGachaTier(weightedArray) {
   const maxRange = weightedArray[weightedArray.length - 1].weight;
