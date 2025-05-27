@@ -1,0 +1,374 @@
+{
+  "include-gift": {
+    "group": "General Gacha Settings",
+    "label": "Include Gift Sub Trigger",
+    "type": "checkbox",
+    "value": true
+  },
+  "cost-gift": {
+    "group": "General Gacha Settings",
+    "label": "gift sub roll cost",
+    "type": "number",
+    "value": 5
+  },
+  "include-donation": {
+    "group": "General Gacha Settings",
+    "label": "Include Donation Sub Trigger",
+    "type": "checkbox",
+    "value": true
+  },
+  "cost-donation": {
+    "group": "General Gacha Settings",
+    "label": "Dono roll cost",
+    "type": "number",
+    "value": 25
+  },
+  "include-cheers": {
+    "group": "General Gacha Settings",
+    "label": "Include bits Sub Trigger",
+    "type": "checkbox",
+    "value": true
+  },
+  "cost-cheer": {
+    "group": "General Gacha Settings",
+    "label": "Bit roll cost",
+    "type": "number",
+    "value": 2500
+  },
+  "include-points": {
+    "group": "General Gacha Settings",
+    "label": "Include points Sub Trigger",
+    "type": "checkbox",
+    "value": true
+  },
+  "cost-points": {
+    "group": "General Gacha Settings",
+    "label": "Point roll cost",
+    "type": "number",
+    "value": 10000
+  },
+  "_iGroup1-primary-label": {
+    "type": "text",
+    "label": "Tier Label (Fill in to add tier)",
+    "group": "Imput Group 1"
+  },
+  "_iGroup1-settings-weight": {
+    "type": "number",
+    "label": "Tier Weight (default is 1)",
+    "value": 1,
+    "group": "Imput Group 1"
+  },
+  "_iGroup1-settings-media": {
+    "type": "dropdown",
+    "label": "Media Type",
+    "options": {
+      "image": "image",
+      "video": "video"
+    },
+    "value": "video",
+    "group": "Imput Group 1"
+  },
+  "_iGroup1-separator-video": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 1",
+    "value": ""
+  },
+  "_iGroup1-video-media": {
+    "type": "video-input",
+    "label": "Tier Video",
+    "group": "Imput Group 1"
+  },
+  "_iGroup1-separator-image": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 1",
+    "value": ""
+  },
+  "_iGroup1-image-media": {
+    "type": "image-input",
+    "label": "Gacha Image",
+    "group": "Imput Group 1"
+  },
+  "_iGroup1-image-audio": {
+    "type": "sound-input",
+    "label": "Gacha SFX",
+    "group": "Imput Group 1"
+  },
+  "_iGroup1-image-time": {
+    "type": "number",
+    "label": "Display Timer (default is 8s)",
+    "value": 8,
+    "group": "Imput Group 1"
+  },
+  "_iGroup2-primary-label": {
+    "type": "text",
+    "label": "Tier Label (Fill in to add tier)",
+    "group": "Imput Group 2"
+  },
+  "_iGroup2-settings-weight": {
+    "type": "number",
+    "label": "Tier Weight (default is 1)",
+    "value": 1,
+    "group": "Imput Group 2"
+  },
+  "_iGroup2-settings-media": {
+    "type": "dropdown",
+    "label": "Media Type",
+    "options": {
+      "image": "image",
+      "video": "video"
+    },
+    "value": "video",
+    "group": "Imput Group 2"
+  },
+  "_iGroup2-separator-video": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 2",
+    "value": ""
+  },
+  "_iGroup2-video-media": {
+    "type": "video-input",
+    "label": "Tier Video",
+    "group": "Imput Group 2"
+  },
+  "_iGroup2-separator-image": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 2",
+    "value": ""
+  },
+  "_iGroup2-image-media": {
+    "type": "image-input",
+    "label": "Gacha Image",
+    "group": "Imput Group 2"
+  },
+  "_iGroup2-image-audio": {
+    "type": "sound-input",
+    "label": "Gacha SFX",
+    "group": "Imput Group 2"
+  },
+  "_iGroup2-image-time": {
+    "type": "number",
+    "label": "Display Timer (default is 8s)",
+    "value": 8,
+    "group": "Imput Group 2"
+  },
+  "_iGroup3-primary-label": {
+    "type": "text",
+    "label": "Tier Label (Fill in to add tier)",
+    "group": "Imput Group 3"
+  },
+  "_iGroup3-settings-weight": {
+    "type": "number",
+    "label": "Tier Weight (default is 1)",
+    "value": 1,
+    "group": "Imput Group 3"
+  },
+  "_iGroup3-settings-media": {
+    "type": "dropdown",
+    "label": "Media Type",
+    "options": {
+      "image": "image",
+      "video": "video"
+    },
+    "value": "video",
+    "group": "Imput Group 3"
+  },
+  "_iGroup3-separator-video": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 3",
+    "value": ""
+  },
+  "_iGroup3-video-media": {
+    "type": "video-input",
+    "label": "Tier Video",
+    "group": "Imput Group 3"
+  },
+  "_iGroup3-separator-image": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 3",
+    "value": ""
+  },
+  "_iGroup3-image-media": {
+    "type": "image-input",
+    "label": "Gacha Image",
+    "group": "Imput Group 3"
+  },
+  "_iGroup3-image-audio": {
+    "type": "sound-input",
+    "label": "Gacha SFX",
+    "group": "Imput Group 3"
+  },
+  "_iGroup3-image-time": {
+    "type": "number",
+    "label": "Display Timer (default is 8s)",
+    "value": 8,
+    "group": "Imput Group 3"
+  },
+  "_iGroup4-primary-label": {
+    "type": "text",
+    "label": "Tier Label (Fill in to add tier)",
+    "group": "Imput Group 4"
+  },
+  "_iGroup4-settings-weight": {
+    "type": "number",
+    "label": "Tier Weight (default is 1)",
+    "value": 1,
+    "group": "Imput Group 4"
+  },
+  "_iGroup4-settings-media": {
+    "type": "dropdown",
+    "label": "Media Type",
+    "options": {
+      "image": "image",
+      "video": "video"
+    },
+    "value": "video",
+    "group": "Imput Group 4"
+  },
+  "_iGroup4-separator-video": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 4",
+    "value": ""
+  },
+  "_iGroup4-video-media": {
+    "type": "video-input",
+    "label": "Tier Video",
+    "group": "Imput Group 4"
+  },
+  "_iGroup4-separator-image": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 4",
+    "value": ""
+  },
+  "_iGroup4-image-media": {
+    "type": "image-input",
+    "label": "Gacha Image",
+    "group": "Imput Group 4"
+  },
+  "_iGroup4-image-audio": {
+    "type": "sound-input",
+    "label": "Gacha SFX",
+    "group": "Imput Group 4"
+  },
+  "_iGroup4-image-time": {
+    "type": "number",
+    "label": "Display Timer (default is 8s)",
+    "value": 8,
+    "group": "Imput Group 4"
+  },
+  "_iGroup5-primary-label": {
+    "type": "text",
+    "label": "Tier Label (Fill in to add tier)",
+    "group": "Imput Group 5"
+  },
+  "_iGroup5-settings-weight": {
+    "type": "number",
+    "label": "Tier Weight (default is 1)",
+    "value": 1,
+    "group": "Imput Group 5"
+  },
+  "_iGroup5-settings-media": {
+    "type": "dropdown",
+    "label": "Media Type",
+    "options": {
+      "image": "image",
+      "video": "video"
+    },
+    "value": "video",
+    "group": "Imput Group 5"
+  },
+  "_iGroup5-separator-video": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 5",
+    "value": ""
+  },
+  "_iGroup5-video-media": {
+    "type": "video-input",
+    "label": "Tier Video",
+    "group": "Imput Group 5"
+  },
+  "_iGroup5-separator-image": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 5",
+    "value": ""
+  },
+  "_iGroup5-image-media": {
+    "type": "image-input",
+    "label": "Gacha Image",
+    "group": "Imput Group 5"
+  },
+  "_iGroup5-image-audio": {
+    "type": "sound-input",
+    "label": "Gacha SFX",
+    "group": "Imput Group 5"
+  },
+  "_iGroup5-image-time": {
+    "type": "number",
+    "label": "Display Timer (default is 8s)",
+    "value": 8,
+    "group": "Imput Group 5"
+  },
+  "_iGroup6-primary-label": {
+    "type": "text",
+    "label": "Tier Label (Fill in to add tier)",
+    "group": "Imput Group 6"
+  },
+  "_iGroup6-settings-weight": {
+    "type": "number",
+    "label": "Tier Weight (default is 1)",
+    "value": 1,
+    "group": "Imput Group 6"
+  },
+  "_iGroup6-settings-media": {
+    "type": "dropdown",
+    "label": "Media Type",
+    "options": {
+      "image": "image",
+      "video": "video"
+    },
+    "value": "video",
+    "group": "Imput Group 6"
+  },
+  "_iGroup6-separator-video": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 6",
+    "value": ""
+  },
+  "_iGroup6-video-media": {
+    "type": "video-input",
+    "label": "Tier Video",
+    "group": "Imput Group 6"
+  },
+  "_iGroup6-separator-image": {
+    "type": "text",
+    "label": "System Message (not user input)",
+    "group": "Imput Group 6",
+    "value": ""
+  },
+  "_iGroup6-image-media": {
+    "type": "image-input",
+    "label": "Gacha Image",
+    "group": "Imput Group 6"
+  },
+  "_iGroup6-image-audio": {
+    "type": "sound-input",
+    "label": "Gacha SFX",
+    "group": "Imput Group 6"
+  },
+  "_iGroup6-image-time": {
+    "type": "number",
+    "label": "Display Timer (default is 8s)",
+    "value": 8,
+    "group": "Imput Group 6"
+  }
+}
